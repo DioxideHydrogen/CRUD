@@ -21,8 +21,8 @@ class MySQL implements DBInterface {
     {
         $this->host = "localhost";    
         $this->user = "dev";
-        $this->pass = "19862010";
-        $this->database = "test";
+        $this->pass = "";
+        $this->database = "";
         $this->charset = "utf8";
         $this->con = $this->connect();
     }
